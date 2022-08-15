@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+
+    width: 100vw;
+    height: 8vh;
+    border-bottom: 1px solid #dcdbdb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+
+}
+
+h3{
+
+    font-size: 25px;
+}
+
+#signin{
+
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.box{
+
+    width: 100VW;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.box1{
+
+    width: 600PX;
+    height: 100%;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+   
+}
+
+h1{
+
+    font-size: 45px;
+}
+
+p{
+
+    font-size: 15px;
+    color: grey;
+    margin-top: 35px;
+}
+#generator{
+
+    padding: 10px 20px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 35px;
+    cursor: pointer;
+
+}
+
+.box2{
+
+    width: 600PX;
+    height: 100%;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+img{
+
+    width: 550px;
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+}
